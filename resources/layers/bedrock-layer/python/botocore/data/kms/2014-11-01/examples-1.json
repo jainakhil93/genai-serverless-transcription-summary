@@ -7,7 +7,7 @@
           "KeyId": "1234abcd-12ab-34cd-56ef-1234567890ab"
         },
         "output": {
-          "KeyId": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab"
+          "KeyId": "hello/1234abcd-12ab-34cd-56ef-1234567890ab"
         },
         "comments": {
           "input": {
@@ -122,7 +122,7 @@
         "output": {
           "KeyMetadata": {
             "AWSAccountId": "111122223333",
-            "Arn": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "Arn": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
             "CreationDate": "2017-07-05T14:04:55-07:00",
             "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
             "Description": "",
@@ -159,7 +159,7 @@
         "output": {
           "KeyMetadata": {
             "AWSAccountId": "111122223333",
-            "Arn": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "Arn": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
             "CreationDate": "2021-04-05T14:04:55-07:00",
             "CustomerMasterKeySpec": "RSA_4096",
             "Description": "",
@@ -198,7 +198,7 @@
         "output": {
           "KeyMetadata": {
             "AWSAccountId": "111122223333",
-            "Arn": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "Arn": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
             "CreationDate": "2019-12-02T07:48:55-07:00",
             "CustomerMasterKeySpec": "ECC_NIST_P521",
             "Description": "",
@@ -281,7 +281,7 @@
         "output": {
           "KeyMetadata": {
             "AWSAccountId": "111122223333",
-            "Arn": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "Arn": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
             "CreationDate": "2019-12-02T07:48:55-07:00",
             "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
             "Description": "",
@@ -318,7 +318,7 @@
         "output": {
           "KeyMetadata": {
             "AWSAccountId": "111122223333",
-            "Arn": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "Arn": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
             "CloudHsmClusterId": "cluster-1a23b4cdefg",
             "CreationDate": "2019-12-02T07:48:55-07:00",
             "CustomKeyStoreId": "cks-1234567890abcdef0",
@@ -358,7 +358,7 @@
         "output": {
           "KeyMetadata": {
             "AWSAccountId": "111122223333",
-            "Arn": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "Arn": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
             "CreationDate": "2022-04-05T14:04:55-07:00",
             "CustomerMasterKeySpec": "HMAC_384",
             "Description": "",
@@ -520,7 +520,7 @@
         "output": {
           "KeyMetadata": {
             "AWSAccountId": "111122223333",
-            "Arn": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "Arn": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
             "CreationDate": "2017-07-05T14:04:55-07:00",
             "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
             "Description": "",
@@ -653,7 +653,7 @@
         "output": {
           "KeyMetadata": {
             "AWSAccountId": "123456789012",
-            "Arn": "arn:aws:kms:us-west-2:123456789012:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "Arn": "hello",
             "CreationDate": 1566160362.664,
             "CustomerMasterKeySpec": "HMAC_256",
             "Description": "Development test key",
@@ -794,7 +794,7 @@
         },
         "output": {
           "CiphertextBlob": "<binary data>",
-          "KeyId": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+          "KeyId": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
           "Plaintext": "<binary data>"
         },
         "comments": {
@@ -881,7 +881,7 @@
         },
         "output": {
           "CiphertextBlob": "<binary data>",
-          "KeyId": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab"
+          "KeyId": "hello/1234abcd-12ab-34cd-56ef-1234567890ab"
         },
         "comments": {
           "input": {
@@ -1001,7 +1001,7 @@
         },
         "output": {
           "ImportToken": "<binary data>",
-          "KeyId": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+          "KeyId": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
           "ParametersValidTo": "2016-12-01T14:52:17-08:00",
           "PublicKey": "<binary data>"
         },
@@ -1081,42 +1081,42 @@
         "output": {
           "Aliases": [
             {
-              "AliasArn": "arn:aws:kms:us-east-2:111122223333:alias/aws/acm",
+              "AliasArn": "hello:alias/aws/acm",
               "AliasName": "alias/aws/acm",
               "TargetKeyId": "da03f6f7-d279-427a-9cae-de48d07e5b66"
             },
             {
-              "AliasArn": "arn:aws:kms:us-east-2:111122223333:alias/aws/ebs",
+              "AliasArn": "hello:alias/aws/ebs",
               "AliasName": "alias/aws/ebs",
               "TargetKeyId": "25a217e7-7170-4b8c-8bf6-045ea5f70e5b"
             },
             {
-              "AliasArn": "arn:aws:kms:us-east-2:111122223333:alias/aws/rds",
+              "AliasArn": "hello:alias/aws/rds",
               "AliasName": "alias/aws/rds",
               "TargetKeyId": "7ec3104e-c3f2-4b5c-bf42-bfc4772c6685"
             },
             {
-              "AliasArn": "arn:aws:kms:us-east-2:111122223333:alias/aws/redshift",
+              "AliasArn": "hello:alias/aws/redshift",
               "AliasName": "alias/aws/redshift",
               "TargetKeyId": "08f7a25a-69e2-4fb5-8f10-393db27326fa"
             },
             {
-              "AliasArn": "arn:aws:kms:us-east-2:111122223333:alias/aws/s3",
+              "AliasArn": "hello:alias/aws/s3",
               "AliasName": "alias/aws/s3",
               "TargetKeyId": "d2b0f1a3-580d-4f79-b836-bc983be8cfa5"
             },
             {
-              "AliasArn": "arn:aws:kms:us-east-2:111122223333:alias/example1",
+              "AliasArn": "hello:alias/example1",
               "AliasName": "alias/example1",
               "TargetKeyId": "4da1e216-62d0-46c5-a7c0-5f3a3d2f8046"
             },
             {
-              "AliasArn": "arn:aws:kms:us-east-2:111122223333:alias/example2",
+              "AliasArn": "hello",
               "AliasName": "alias/example2",
               "TargetKeyId": "f32fef59-2cc2-445b-8573-2d73328acbee"
             },
             {
-              "AliasArn": "arn:aws:kms:us-east-2:111122223333:alias/example3",
+              "AliasArn": "hello",
               "AliasName": "alias/example3",
               "TargetKeyId": "1374ef38-d34e-4d5f-b2c9-4e0daee38855"
             }
@@ -1146,7 +1146,7 @@
               "GrantId": "91ad875e49b04a9d1f3bdeb84d821f9db6ea95e1098813f6d47f0c65fbe2a172",
               "GranteePrincipal": "acm.us-east-2.amazonaws.com",
               "IssuingAccount": "arn:aws:iam::111122223333:root",
-              "KeyId": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+              "KeyId": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
               "Operations": [
                 "Encrypt",
                 "ReEncryptFrom",
@@ -1159,7 +1159,7 @@
               "GrantId": "a5d67d3e207a8fc1f4928749ee3e52eb0440493a8b9cf05bbfad91655b056200",
               "GranteePrincipal": "acm.us-east-2.amazonaws.com",
               "IssuingAccount": "arn:aws:iam::111122223333:root",
-              "KeyId": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+              "KeyId": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
               "Operations": [
                 "ReEncryptFrom",
                 "ReEncryptTo"
@@ -1171,7 +1171,7 @@
               "GrantId": "c541aaf05d90cb78846a73b346fc43e65be28b7163129488c738e0c9e0628f4f",
               "GranteePrincipal": "acm.us-east-2.amazonaws.com",
               "IssuingAccount": "arn:aws:iam::111122223333:root",
-              "KeyId": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+              "KeyId": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
               "Operations": [
                 "Encrypt",
                 "ReEncryptFrom",
@@ -1184,7 +1184,7 @@
               "GrantId": "dd2052c67b4c76ee45caf1dc6a1e2d24e8dc744a51b36ae2f067dc540ce0105c",
               "GranteePrincipal": "acm.us-east-2.amazonaws.com",
               "IssuingAccount": "arn:aws:iam::111122223333:root",
-              "KeyId": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+              "KeyId": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
               "Operations": [
                 "Encrypt",
                 "ReEncryptFrom",
@@ -1239,31 +1239,31 @@
         "output": {
           "Keys": [
             {
-              "KeyArn": "arn:aws:kms:us-east-2:111122223333:key/0d990263-018e-4e65-a703-eff731de951e",
+              "KeyArn": "hello/0d990263-018e-4e65-a703-eff731de951e",
               "KeyId": "0d990263-018e-4e65-a703-eff731de951e"
             },
             {
-              "KeyArn": "arn:aws:kms:us-east-2:111122223333:key/144be297-0ae1-44ac-9c8f-93cd8c82f841",
+              "KeyArn": "hello/144be297-0ae1-44ac-9c8f-93cd8c82f841",
               "KeyId": "144be297-0ae1-44ac-9c8f-93cd8c82f841"
             },
             {
-              "KeyArn": "arn:aws:kms:us-east-2:111122223333:key/21184251-b765-428e-b852-2c7353e72571",
+              "KeyArn": "hello/21184251-b765-428e-b852-2c7353e72571",
               "KeyId": "21184251-b765-428e-b852-2c7353e72571"
             },
             {
-              "KeyArn": "arn:aws:kms:us-east-2:111122223333:key/214fe92f-5b03-4ae1-b350-db2a45dbe10c",
+              "KeyArn": "hello/214fe92f-5b03-4ae1-b350-db2a45dbe10c",
               "KeyId": "214fe92f-5b03-4ae1-b350-db2a45dbe10c"
             },
             {
-              "KeyArn": "arn:aws:kms:us-east-2:111122223333:key/339963f2-e523-49d3-af24-a0fe752aa458",
+              "KeyArn": "hello/339963f2-e523-49d3-af24-a0fe752aa458",
               "KeyId": "339963f2-e523-49d3-af24-a0fe752aa458"
             },
             {
-              "KeyArn": "arn:aws:kms:us-east-2:111122223333:key/b776a44b-df37-4438-9be4-a27494e4271a",
+              "KeyArn": "hello/b776a44b-df37-4438-9be4-a27494e4271a",
               "KeyId": "b776a44b-df37-4438-9be4-a27494e4271a"
             },
             {
-              "KeyArn": "arn:aws:kms:us-east-2:111122223333:key/deaf6c9e-cf2c-46a6-bf6d-0b6d487cffbb",
+              "KeyArn": "hello/deaf6c9e-cf2c-46a6-bf6d-0b6d487cffbb",
               "KeyId": "deaf6c9e-cf2c-46a6-bf6d-0b6d487cffbb"
             }
           ],
@@ -1379,8 +1379,8 @@
         },
         "output": {
           "CiphertextBlob": "<binary data>",
-          "KeyId": "arn:aws:kms:us-east-2:111122223333:key/0987dcba-09fe-87dc-65ba-ab0987654321",
-          "SourceKeyId": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab"
+          "KeyId": "hello/0987dcba-09fe-87dc-65ba-ab0987654321",
+          "SourceKeyId": "hello/1234abcd-12ab-34cd-56ef-1234567890ab"
         },
         "comments": {
           "input": {
@@ -1499,7 +1499,7 @@
         },
         "output": {
           "DeletionDate": "2016-12-17T16:00:00-08:00",
-          "KeyId": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab"
+          "KeyId": "hello/1234abcd-12ab-34cd-56ef-1234567890ab"
         },
         "comments": {
           "input": {
@@ -1525,7 +1525,7 @@
           "SigningAlgorithm": "ECDSA_SHA_384"
         },
         "output": {
-          "KeyId": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+          "KeyId": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
           "Signature": "<binary data>",
           "SigningAlgorithm": "ECDSA_SHA_384"
         },
@@ -1692,7 +1692,7 @@
           "SigningAlgorithm": "ECDSA_SHA_384"
         },
         "output": {
-          "KeyId": "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+          "KeyId": "hello/1234abcd-12ab-34cd-56ef-1234567890ab",
           "SignatureValid": true,
           "SigningAlgorithm": "ECDSA_SHA_384"
         },
